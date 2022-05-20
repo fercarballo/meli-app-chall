@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-row-reverse">
+        <div className="flex flex-row-reverse min-w-md">
           <img
             className="p-2 max-w-xs"
             src="https://http2.mlstatic.com/resources/frontend/web-homes/ui-dist/images/data-fiscal-6dc7613071.png"

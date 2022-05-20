@@ -21,27 +21,30 @@ export function Navbar() {
       <div className="container mx-auto flex items-center">
         <Link to="/">
           <img
-            src="/img/mercadolibre-curso.png"
-            className="h-[35px] w-[35px] m-4"
+            src="/img/mercadito.png"
+            className="h-[40px] w-[98px] mx-2 my-2"
             alt="Logo"
           />
         </Link>
-        <div className="flex w-full ml-16 mr-16">
+        <div className="flex w-full ml-9 mr-10">
           <input
             id="search"
             name="search"
             ref={searchRef}
             placeholder="Nunca dejes de buscar"
-            className="w-full bg-white py-1 px-3 rounded-md"
+            className="w-full bg-white p-2 px- rounded-l-lg"
             onKeyDown={handleKeyDown}
           />
-          <button className="bg-gray-200 p-4" onClick={handleSearchClick}>
+          <button
+            className="bg-white p-4 border-l-neutral-300 border-l-2"
+            onClick={handleSearchClick}
+          >
             <FaSearch />
           </button>
         </div>
 
         <img
-          className="max-w-sm justify-end"
+          className=" justify-end w-16 md:w-60 lg:w-96"
           src="https://http2.mlstatic.com/D_NQ_663552-MLA49878679172_052022-OO.webp"
           alt=""
         />

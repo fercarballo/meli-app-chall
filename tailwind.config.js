@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'mercadolibre': '#fff159'
+        'mercadolibre': '#fff159',
+        'buttonMeli': '#3483fa',
       },
       fontFamily: {
         sans: ['Graphik', 'sans-serif'],
